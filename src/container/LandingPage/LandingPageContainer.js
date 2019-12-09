@@ -15,7 +15,7 @@ class LandingPageContainer extends Component {
   render() {
     return (
       <div>
-        <LandingPage onClick={this.handleButtonsClick} />
+        <LandingPage />
       </div>
     )
   }

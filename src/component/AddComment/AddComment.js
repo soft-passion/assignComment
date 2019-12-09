@@ -77,8 +77,9 @@ class AddComment extends Component {
 
     return (
       <div className={classes.layout}>
+        <h1>Add comment</h1>
         <Grid container>
-          <Grid item xs={12} sm={8} md={8} lg={8}>
+          <Grid item xs={12} sm={12} md={12} lg={12}>
             <form onSubmit={this.handleSubmit}>
               <FormControl margin="normal" required fullWidth>
                 <InputLabel>Email</InputLabel>
